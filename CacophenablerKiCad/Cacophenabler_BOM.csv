@@ -1,0 +1,34 @@
+Ref,Footprint,Description,$unit,Comments
+U1,SOT23-6,PIC10F220_I/OT2,$0.92,program at J2 via spring loaded test pins
+Q1,SOT23-3,pFET FDN340P or FDN338P1,$0.51,
+D1,SOT23-3,dual Schottky CC BAT54C,$0.08,
+D2,SOD123,1N4148,$0.16,Fit D2 after programming PIC
+R1,603,4M7,$0.00,NF
+R2,603,0R NF,$0.00,NF
+R3,603,0R NF,$0.00,NF
+R4,603,10K NF,$0.00,NF
+R5,603,10K NF,$0.00,NF
+R6,603,33K,$0.01,Selects 24 hour cycle
+R7,603,200R,$0.01,
+C1,603,1uF 10V MLCC,$0.08,
+J1,xxx,USB plug Molex 48037-2200,$2.06,
+J2,xxx,ICSP pads,$0.00,pads for programming
+J3,xxx,USB sck Lumberg 2410-06,$1.33,
+,,,,
+Component cost / unit,,,$5.16,
+,,,,
+PCB cost (PCBcart),,,,
+40 boards = USD47.53 = NZ$74.53,,,,
+PCB cost / board,,,$1.86,
+,,,,
+Heatshrink 19mm black ~$10/m,,,,
+Need ~25mm / unit,,,$0.25,
+,,,,
+Total parts cost / unit,,,$7.27,
+,,,,
+Manufacture cost,,,,
+"(hand assemble, program, test)",,,,
+estimate 10min/board,,,,
+Allowance only,,,$10.00,
+,,,,
+Total manufactured cost / unit,,,$17.27,

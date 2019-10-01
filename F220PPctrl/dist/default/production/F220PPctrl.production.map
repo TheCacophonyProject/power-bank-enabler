@@ -1,0 +1,76 @@
+MPLINK 5.08, LINKER
+Linker Map File - Created Thu Sep 26 22:38:08 2019
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000000
+                   .org_1       code   0x000000    program   0x000198
+.config_0FFF_PIC10F220PPCTRL.O       code   0x000fff    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x0000cb      
+                            0x000fff    0x000fff      
+            205 out of 261 program addresses used, program memory utilization is 78%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+                   bitend   0x0000c3    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                check_Vcc   0x000098    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                 cycle_T0   0x00006b    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                 cycle_T2   0x000061    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                 cycle_T3   0x000063    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                 cycle_T4   0x000065    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                 cycle_T5   0x000067    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                 cycle_T6   0x000069    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+               cycle_time   0x00006c    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                dbg_wr_lp   0x0000bd    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                debug_out   0x0000ba    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                delay_2us   0x0000cb    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                   fet_on   0x0000b3    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+               go_2_sleep   0x000077    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+              output_Vref   0x0000b7    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                  powerup   0x00002d    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+          start_pwr_cycle   0x000010    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+              wake_change   0x00000f    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                  wake_up   0x000079    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+               wt4adc_lp1   0x00003d    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+               wt4adc_lp2   0x0000a1    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+               wu_standby   0x00007e    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+              wake_change   0x00000f    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+          start_pwr_cycle   0x000010    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                  powerup   0x00002d    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+               wt4adc_lp1   0x00003d    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                 cycle_T2   0x000061    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                 cycle_T3   0x000063    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                 cycle_T4   0x000065    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                 cycle_T5   0x000067    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                 cycle_T6   0x000069    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                 cycle_T0   0x00006b    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+               cycle_time   0x00006c    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+               go_2_sleep   0x000077    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                  wake_up   0x000079    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+               wu_standby   0x00007e    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                check_Vcc   0x000098    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+               wt4adc_lp2   0x0000a1    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                   fet_on   0x0000b3    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+              output_Vref   0x0000b7    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                debug_out   0x0000ba    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                dbg_wr_lp   0x0000bd    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                   bitend   0x0000c3    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+                delay_2us   0x0000cb    program     static C:\Ewen\PIC\PIC10F\F220PPctrl\pic10F220PPctrl.asm
+
+

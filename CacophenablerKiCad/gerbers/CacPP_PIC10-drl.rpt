@@ -1,0 +1,25 @@
+Drill report for C:\Users\Ewen\Documents\KiCadFiles\CacophonyPP_PIC10\CacPP_PIC10.kicad_pcb
+Created on 27/08/2019 22:33:10
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'CacPP_PIC10-PTH.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0.40mm  0.016"  (4 holes)
+    T2  0.70mm  0.028"  (2 holes)  (with 2 slots)
+    T3  2.00mm  0.079"  (2 holes)
+
+    Total plated holes count 8
+
+
+Drill file 'CacPP_PIC10-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+    T1  1.10mm  0.043"  (2 holes)
+
+    Total unplated holes count 2

@@ -1,0 +1,16 @@
+[Project ID]
+Signature=UE Proj: v.1
+[Project Information]
+Use Relative Directory=1
+Relative to Project File=1
+Include Sub Directories=1
+Project Tagfile=
+Project Wordfile=
+Filter=
+Create Tagfile=0
+[Files]
+0=pic10F220PPctrl.asm
+1=readme.txt
+2=..\copy_p10f220.inc
+3=..\copy_p10f222.inc
+4=MACRO.ASM
